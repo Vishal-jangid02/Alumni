@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hm"
+    android:layout_marginTop="100dp"
+
+    tools:context="com.example.vishal.GecaAlumni.Activity.Contact_Us">
+
+    <RelativeLayout
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/pemail"
+        android:textSize="20dp"
+        android:text="Email :-     principal@ecajmer.ac.in "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/pno"
+            android:layout_below="@+id/pemail"
+            android:text="Phone :-  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:layout_below="@+id/pemail"
+            android:layout_toRightOf="@+id/pno"
+            android:id="@+id/ClgNum"
+            android:text=" +911452971024 "
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/pno2"
+            android:text=" +911452971023 (DR Finance)"
+            android:layout_toRightOf="@+id/pno"
+            android:layout_below="@+id/ClgNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:layout_below="@id/pno2"
+            android:text="GST No :-  08AABAP0959P1ZZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

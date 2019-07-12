@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vishal.GecaAlumni.Activity.Navigation">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.ActionBar">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_navigation" />
+
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:title="ALUMNI"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            app:titleTextColor="@color/colorwhite"
+            android:layout_height="wrap_content"
+            >
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <LinearLayout
+            android:layout_weight="9"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <GridLayout
+                    android:columnCount="2"
+                    android:rowCount="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_Profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="15dp"
+                        app:cardCornerRadius="10dp"
+                        android:layout_margin="20dp"
+                        >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="15dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:src="@drawable/profile"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp" />
+                            <TextView
+                                android:textSize="18sp"
+                                android:text="Profile"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_FindOthers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="15dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_margin="20dp"
+                        >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="15dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:src="@drawable/findother"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp" />
+                            <TextView
+                                android:textSize="18sp"
+                                android:text="Find Others"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_Events"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="15dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_margin="20dp"
+                        >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="15dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:src="@drawable/events"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp" />
+                            <TextView
+                                android:textSize="18sp"
+                                android:text="Events"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_WallOfFame"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="15dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_margin="20dp"
+                        >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="15dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:src="@drawable/walloffame"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp" />
+                            <TextView
+                                android:textSize="18sp"
+                                android:text="WallOfFame"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_JobPosting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="15dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_margin="20dp"
+                        >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="15dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:src="@drawable/jobposting"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp" />
+                            <TextView
+                                android:textSize="18sp"
+                                android:text="Jobs Posting"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_JobAvailable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="15dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_margin="20dp"
+                        >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="15dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:src="@drawable/jobavailable"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp" />
+
+                            <TextView android:gravity="center"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:text="Job Available"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_Donates"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="15dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_margin="20dp"
+                        >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="15dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:src="@drawable/donates"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp" />
+                            <TextView
+                                android:gravity="center"
+                                android:textSize="18sp"
+                                android:text="Donates"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_News"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_columnWeight="1"
+                        android:layout_rowWeight="1"
+                        app:cardElevation="15dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_margin="20dp"
+                        >
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:padding="15dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:src="@drawable/updateicon"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp" />
+
+                            <TextView
+                                android:gravity="center"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:text="Jobs Updates"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+
+                </GridLayout>
+
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/btn_HomeChat"
+                android:text="Chat"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </LinearLayout
+>
+
+
+</android.support.design.widget.CoordinatorLayout>

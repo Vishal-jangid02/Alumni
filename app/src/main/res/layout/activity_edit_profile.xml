@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vishal.GecaAlumni.Activity.EditProfile">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:title="Profile"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            app:titleTextColor="@color/colorwhite"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+        </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/editProImage"
+            android:src="@drawable/imae"
+            android:layout_width="match_parent"
+            android:layout_height="240dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:inputType="text"
+                android:layout_marginTop="20dp"
+                android:id="@+id/editProNumber"
+                android:hint=" edit mobile number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"  />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:inputType="text"
+                android:layout_marginTop="20dp"
+                android:id="@+id/editProAddress"
+                android:hint="  edit address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:inputType="text"
+                android:layout_marginTop="20dp"
+                android:id="@+id/editProOrganization"
+                android:hint="  edit organization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"  />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:inputType="text"
+                android:layout_marginTop="20dp"
+                android:id="@+id/editProPosition"
+                android:hint=" present position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"   />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/editBtnSubmit"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btnbd1"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_width="100dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</ScrollView>

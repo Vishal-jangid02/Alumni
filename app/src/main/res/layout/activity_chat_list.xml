@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.vishal.GecaAlumni.Activity.ChatList">
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/colorwhite"
+        app:title="Chat List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+    <ListView
+        android:layout_margin="10dp"
+        android:id="@+id/List_Chat"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </ListView>
+
+    <Button
+        android:layout_margin="10dp"
+        android:background="@drawable/btnbd1"
+        android:id="@+id/btn_FindPeople"
+        android:textStyle="bold"
+        android:textColor="@color/colorwhite"
+        android:text="Find Other People"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+</LinearLayout>

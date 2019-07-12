@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/btnbd"
+    tools:context="com.example.vishal.GecaAlumni.Activity.Profile">
+
+    <android.support.v7.widget.Toolbar
+        app:title="Profile"
+        app:titleTextColor="@color/colorwhite"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+               android:text="Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:text="name"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Mobile Number:-"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+          android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:id="@+id/txtMobile"
+            android:text="mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+           android:textColor="@color/white"
+           android:layout_marginTop="5dp"
+            android:id="@+id/txtEmail"
+            android:text="email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+              android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="15dp"
+              android:text="Organization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/txtOrganization"
+            android:textColor="@color/white"
+            android:text="organization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="address"
+            android:layout_marginTop="5dp"
+            android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+              android:text="Course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20dp"
+            android:text="Course"
+          android:layout_marginTop="5dp"
+            android:id="@+id/txtCourse"
+           android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:text="Branch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/white"
+          android:layout_marginTop="5dp"
+            android:id="@+id/txtBranch"
+            android:text="branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                />
+        </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+        </LinearLayout>
+
+
+</LinearLayout>

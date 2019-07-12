@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vishal.GecaAlumni.Activity.ChatWindow">
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        app:title="Message Window"
+        app:titleTextColor="@color/colorwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:background="@drawable/btnbd"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ListView
+            android:id="@+id/list_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="false"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="10dp"
+            android:transcriptMode="alwaysScroll"
+            ></ListView>
+
+       <!-- <EditText
+            android:hint="input Message"
+            android:layout_toLeftOf="@+id/btn_sendmsg"
+            android:id="@+id/msg_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            />
+-->
+        <Button
+            android:background="@drawable/btnbd1"
+            android:id="@+id/btn_sendmsg"
+            android:text="send"
+            android:textColor="@color/colorwhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

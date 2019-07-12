@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/btn_shape"
+    tools:context="com.example.vishal.GecaAlumni.Activity.JobPosting">
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        app:title="Job Posting"
+        app:titleTextColor="@color/colorwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+
+
+            <ScrollView
+                android:layout_margin="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+
+                    android:id="@+id/txt_posJobType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Job Type" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posExperience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Experience" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Location" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posSkills"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Skills" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Date of Post" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posCtc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ctc" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Job Description" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posIndustryType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Industry Type" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posRole"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Role" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posEmpType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Employment Type" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posCandidatePro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Candidate Profile" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:text="Employer Details :-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posCompanyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Company Name" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posCompanyWebsite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Company Website" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+           <!-- <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="text"
+                    android:id="@+id/txt_posPostedBy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="postedby" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            </RelativeLayout>-->
+
+            <Button
+                android:id="@+id/btn_posSubmit"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorwhite"
+                android:text="Submit"
+                android:layout_gravity="center"
+                android:background="@drawable/btnbd1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.vishal.GecaAlumni.Activity.Events">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Events"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        app:titleTextColor="@color/colorwhite"
+        android:layout_height="wrap_content"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        >
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="20dp"
+            android:text="The most basic events are :-"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:text="Tarangini :-"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:text="The Official Cultural Festival of college which includes various events related to dance, singing, acting,art etc. It Is generally organized in April or March."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:text="Technotsav :-"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:text="The official technical fest of college. It includes technical events related to programming ,robotics, computer gaming etc. It is organized in February or March."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Combat(Sports week)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:text="Official annual sports event which includes various indoor and outdoor sports. It is organized in September."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="Other than these various other events also take place every year which are :-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:text="•	Fresher’s Day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="18dp"
+            android:text="•	Teacher’s Day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="18dp"
+            android:text="•	Independence day and Republic Day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:text="For further details click here :-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/creativeart"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="40dp"
+            android:text="Creative arts society"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

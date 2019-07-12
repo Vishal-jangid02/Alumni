@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SplashScreen">
+
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/btnbd"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/geca" />
+
+        <TextView
+            android:gravity="center"
+            android:text="GECA"
+            android:textSize="30dp"
+            android:textColor="@color/colorwhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center"
+            android:text="ALUMNI"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/colorwhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ProgressBar
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/progressBar"
+            android:progressBackgroundTint="@color/colorPrimary"
+            android:progressTint="@color/colorPrimary"
+            android:layout_centerInParent="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            />
+        <!--<ImageView
+            android:layout_marginTop="50dp"
+            android:id="@+id/Logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/geca" />
+
+        <TextView
+            android:id="@+id/txtClgName"
+           android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorwhite"
+            android:text="Govt. Engineering College,Ajmer"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtalumni"
+            android:layout_gravity="center"
+            android:text="ALUMNI"
+            android:textColor="@color/colorwhite"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+       &lt;!&ndash; <com.spark.submitbutton.SubmitButton
+            android:layout_gravity="center"
+            android:id="@+id/btnstart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Get Started"
+            android:textColor="@color/gray"
+            app:sub_btn_background="@color/white"
+            app:sub_btn_duration="3000"
+            app:sub_btn_line_color="@color/colorAccent"
+            app:sub_btn_ripple_color="@color/colorAccent"
+            app:sub_btn_tick_color="@color/white" />&ndash;&gt;
+
+        <Button
+            android:id="@+id/btnstart"
+            android:elevation="80dp"
+            android:text="Get Started"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorwhite"
+            android:background="@drawable/btnbd1"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_width="190dp"
+            android:layout_height="60dp" />
+-->
+    </LinearLayout>
+
+</RelativeLayout>

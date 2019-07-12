@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btnbd"
+    android:orientation="vertical"
+    tools:context=".Activity.Registration">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/colorwhite"
+            android:text="Alumni"
+            android:textSize="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="80dp"
+            android:textColor="@color/colorwhite"
+            android:textSize="20dp"
+            android:text="The Power Of Network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorwhite"
+            android:textSize="20dp"
+            android:text="SIGN UP TO ALUMNI NETWORK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/colorwhite"
+            android:text="Full Name*"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+            <EditText
+                android:inputType="text"
+                android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+                android:id="@+id/Name"
+                android:textColor="@color/colorwhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/colorwhite"
+            android:text="Email*"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+            <EditText
+                android:inputType="text"
+                android:textColor="@color/colorwhite"
+                android:id="@+id/Email"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textColor="@color/colorwhite"
+            android:text="Mobile Number*"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+            <EditText
+                android:inputType="text"
+                android:textColor="@color/colorwhite"
+                android:drawableLeft="@drawable/ic_stay_current_portrait_black_24dp"
+                android:id="@+id/MobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:paddingVertical="10dp"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <Spinner
+            android:background="@drawable/spinnerback"
+            android:paddingHorizontal="10dp"
+            android:layout_weight="1"
+            android:id="@+id/spinnerCourse"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </Spinner>
+            <Spinner
+                android:id="@+id/spinnerBranch"
+                android:background="@drawable/spinnerback"
+                android:paddingHorizontal="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"></Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:paddingVertical="10dp"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Spinner
+                android:background="@drawable/spinnerback"
+                android:paddingHorizontal="10dp"
+                android:layout_weight="1"
+                android:id="@+id/spinnerStart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/spinnerEnd"
+                android:background="@drawable/spinnerback"
+                android:paddingHorizontal="10dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"></Spinner>
+
+        </LinearLayout>
+
+        <!--<TextView
+            android:textColor="@color/colorwhite"
+            android:text="College Id"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+            <EditText
+                android:textColor="@color/colorwhite"
+                android:drawableLeft="@drawable/ic_assignment_ind_black_24dp"
+                android:id="@+id/ClgId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+-->
+
+        <TextView
+            android:textColor="@color/colorwhite"
+            android:text="Present Company*"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+            <EditText
+                android:inputType="text"
+                android:textColor="@color/colorwhite"
+                android:drawableLeft="@drawable/ic_work_black_24dp"
+                android:id="@+id/Organization"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        <TextView
+            android:textColor="@color/colorwhite"
+            android:text="Present Position*"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+            <EditText
+                android:inputType="text"
+                android:textColor="@color/colorwhite"
+                android:drawableLeft="@drawable/ic_accessibility_black_24dp"
+                android:id="@+id/Position"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        <TextView
+            android:textColor="@color/colorwhite"
+            android:text="Address*"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+            <EditText
+                android:inputType="text"
+                android:textColor="@color/colorwhite"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:id="@+id/Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/colorwhite"
+            android:text="Password*"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+            <EditText
+                android:textColor="@color/colorwhite"
+                android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+                android:id="@+id/Pass"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/colorwhite"
+            android:text="Confirm Password*"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+            <EditText
+                android:textColor="@color/colorwhite"
+                android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+                android:id="@+id/ConfirmPass"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btnbd1"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="15sp"
+            android:text="Already Registered?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textSize="15dp"
+            android:id="@+id/btnRegLogin"
+            android:textAllCaps="false"
+            android:textColor="#C71585"
+            android:background="@android:color/transparent"
+            android:text="Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

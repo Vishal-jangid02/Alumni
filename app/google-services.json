@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "393825696530",
+    "firebase_url": "https://gecaalumni-b9384.firebaseio.com",
+    "project_id": "gecaalumni-b9384",
+    "storage_bucket": "gecaalumni-b9384.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393825696530:android:e6ed430b076759c9",
+        "android_client_info": {
+          "package_name": "com.example.vishal.miniorpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393825696530-g8lh2rpaj8rgvj8g291ghk0g8ouh4o7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vishal.miniorpro",
+            "certificate_hash": "16a6d1ff294e1987d19f37c661bf3f7f93f53636"
+          }
+        },
+        {
+          "client_id": "393825696530-bq24j6tdbptlqup9t7enl5o4u15l7mn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBheLrXSwlAJehkXtECEqiEnFtDPg42tN4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393825696530-bq24j6tdbptlqup9t7enl5o4u15l7mn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

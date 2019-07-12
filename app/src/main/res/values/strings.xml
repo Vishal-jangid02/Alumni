@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MiniorPro</string>
+
+    <string-array name="branch">
+        <item>"Choose Branch"</item>
+        <item>"Computer Science"</item>
+        <item>"Electrical"</item>
+        <item>" Electronics and Instrumentation Control"</item>
+        <item>"Information Technology"</item>
+        <item>"Electronics And Commmunication"</item>
+        <item>"Civil"</item>
+        <item>"Mechanical"</item>
+    </string-array>
+
+    <string-array name="SelectCourse">
+        <item>"Select Course"</item>
+        <item>"B.Tech"</item>
+        <item>"M.Tech"</item>
+        <item>"MCA"</item>
+        <item>"MBA"</item>
+    </string-array>
+    <string-array name="AllCourses">
+        <item>"All Courses"</item>
+        <item>"B.Tech"</item>
+        <item>"M.Tech"</item>
+        <item>"MCA"</item>
+        <item>"MBA"</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navi">navi</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_activity_checksum">checksum</string>
+</resources>

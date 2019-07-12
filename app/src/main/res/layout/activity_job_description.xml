@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vishal.GecaAlumni.Activity.JobDescription">
+
+    <android.support.v7.widget.Toolbar
+        app:title="Job Description"
+        app:titleTextColor="@color/colorwhite"
+        android:background="@drawable/btnbd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/btnbd"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:id="@+id/txt_desJobType"
+            android:textColor="@color/colorwhite"
+            android:textSize="25sp"
+            android:hint="Job Type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/exp"
+                    android:src="@drawable/experience"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"
+                    android:hint="experience"
+                    android:layout_toRightOf="@+id/exp"
+                    android:id="@+id/txt_desExperience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/loc"
+                    android:src="@drawable/location"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:textSize="15sp"
+                    android:hint="Location"
+                    android:layout_toRightOf="@+id/loc"
+                    android:id="@+id/txt_desLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/skills"
+                        android:src="@drawable/skills"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:textSize="15sp"
+                        android:hint="Skills"
+                        android:layout_toRightOf="@+id/skills"
+                        android:id="@+id/txt_desSkills"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/inr"
+                        android:src="@drawable/ctc"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:textSize="15sp"
+                        android:hint="INR"
+                        android:layout_toRightOf="@+id/inr"
+                        android:id="@+id/txt_desCtc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/date"
+                        android:src="@drawable/dateofpost"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:textSize="15sp"
+                        android:hint="dateofpost"
+                        android:layout_toRightOf="@+id/date"
+                        android:id="@+id/txt_desDateOfPost"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:text="JOb Description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="15dp"
+                        android:id="@+id/txt_desJobDescription"
+                        android:text="jobdes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:text="Industry Type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="15dp"
+                        android:id="@+id/txt_desIndustryType"
+                        android:text="industry "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:text="Role"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="15dp"
+                        android:id="@+id/txt_desRole"
+                        android:text="role"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:text="Employment Type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="15dp"
+                        android:id="@+id/txt_desEmploymentType"
+                        android:text="Employment "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:text="Candidate Profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="15dp"
+                        android:id="@+id/txt_desCandidatePro"
+                        android:text="candidate "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:text="Employer Details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/company"
+                            android:text="Company Name :-"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_marginLeft="20dp"
+                            android:id="@+id/txt_desCompanyName"
+                            android:text="Company"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/companyweb"
+                            android:text="Company Website :-"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_marginLeft="20dp"
+                            android:id="@+id/txt_desCompanyWeb"
+                            android:text="Company website"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/postedBy"
+                            android:text="Posted By :-"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_marginLeft="20dp"
+                            android:id="@+id/txt_desPostedBy"
+                            android:text="postedby"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

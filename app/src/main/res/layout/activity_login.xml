@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/btnbd"
+    tools:context=".Activity.Login"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:id="@+id/btnNewAcc"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/white"
+                android:text="Create An Account"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="Login"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorwhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorwhite"
+                android:text="Email"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:inputType="text"
+                android:textColor="@color/colorwhite"
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_person_black_24dp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorwhite"
+                android:text="Password"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:textColor="@color/colorwhite"
+                android:id="@+id/editPassword"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/ic_remove_red_eye_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btnbd1"
+                android:layout_marginTop="25dp"
+                android:text="Login"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnForgot"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/colorwhite"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Forgot Password....?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/loginImg"
+                android:layout_gravity="end"
+                android:src="@drawable/loginpn"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

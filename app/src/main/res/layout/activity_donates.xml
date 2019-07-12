@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="com.example.vishal.GecaAlumni.Activity.Donates">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:background="@drawable/geca"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra)"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textViewShortDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="13.3 Inch, 256 GB"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewShortDesc"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="4.7"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRating"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageView"
+        android:text="10.00"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonBuy"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPrice"
+        android:text="Buy" />
+
+</RelativeLayout>
+
+    <!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vishal.GecaAlumni.Activity.Donates">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/donateMoney"
+            android:hint="enter money"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/btn_Money"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorwhite"
+            android:text="Enter"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_shape"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+-->

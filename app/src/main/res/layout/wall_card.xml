@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/wallCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/wallImage"
+                android:src="@drawable/imae"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:textColor="@color/colorwhite"
+                android:id="@+id/name"
+                android:layout_toRightOf="@+id/wallImage"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Name :-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/colorBlue"
+                android:id="@+id/wallName"
+                android:layout_toRightOf="@+id/name"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:hint="User Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/company"
+                android:layout_toRightOf="@+id/wallImage"
+                android:textSize="16sp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Company :-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/colorBlue"
+                android:id="@+id/companyName"
+                android:layout_toRightOf="@+id/company"
+                android:textSize="16sp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:hint="companyname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/donate"
+                android:layout_toRightOf="@+id/wallImage"
+                android:textSize="16sp"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Donate :-"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/colorBlue"
+                android:id="@+id/donateMoney"
+                android:layout_toRightOf="@+id/donate"
+                android:textSize="16sp"
+                android:layout_marginTop="65dp"
+                android:layout_marginLeft="20dp"
+                android:hint="donatemoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</android.support.constraint.ConstraintLayout>
