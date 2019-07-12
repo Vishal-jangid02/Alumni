@@ -34,7 +34,6 @@
         <activity android:name=".Activity.fgpassword" />
         <activity android:name=".Activity.Profile" />
         <activity android:name=".Activity.Findothers" />
-        <activity android:name=".Activity.Give" />
         <activity android:name=".Activity.Events" />
         <activity android:name=".Activity.Walloffame" />
         <activity android:name=".Activity.EditProfile" />
