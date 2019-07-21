@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/JobPostingServlet.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/JobAvailableServlet.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/EmailUtility.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/RegisterServlet.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/LoginCheckServlet.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/EmailVerificationServlet.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/ChangedPasswordServlet.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/EmailVerifiedServlet.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/emailVer.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/emailVerified.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/AllUsersServlet.java</file>
+            <file>file:/G:/RESTDEMO/nbproject/build-impl.xml</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/DownImgServlet.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/MessageUploadServlet.java</file>
+            <file>file:/G:/RESTDEMO/src/java/RestServlet/mailUtility.java</file>
+        </group>
+    </open-files>
+</project-private>

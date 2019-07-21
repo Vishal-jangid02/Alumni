@@ -1,0 +1,116 @@
+-- MySQL Administrator dump 1.4
+--
+-- ------------------------------------------------------
+-- Server version	5.1.33-community
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+
+
+--
+-- Create schema studentregsystem
+--
+
+CREATE DATABASE IF NOT EXISTS studentregsystem;
+USE studentregsystem;
+
+--
+-- Definition of table `adminhec`
+--
+
+DROP TABLE IF EXISTS `adminhec`;
+CREATE TABLE `adminhec` (
+  `userid` varchar(45) NOT NULL,
+  `password` varchar(45) NOT NULL,
+  PRIMARY KEY (`userid`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `adminhec`
+--
+
+/*!40000 ALTER TABLE `adminhec` DISABLE KEYS */;
+INSERT INTO `adminhec` (`userid`,`password`) VALUES 
+ ('mj170420','mayank420');
+/*!40000 ALTER TABLE `adminhec` ENABLE KEYS */;
+
+
+--
+-- Definition of table `alumdata`
+--
+
+DROP TABLE IF EXISTS `alumdata`;
+CREATE TABLE `alumdata` (
+  `fullname` varchar(100) NOT NULL,
+  `email` varchar(120) NOT NULL,
+  `mobno` decimal(10,0) NOT NULL,
+  `course` varchar(45) NOT NULL,
+  `branch` varchar(45) NOT NULL,
+  `startyear` decimal(10,0) NOT NULL,
+  `endyear` decimal(10,0) NOT NULL,
+  `prescomp` text NOT NULL,
+  `prespos` text NOT NULL,
+  `address` text NOT NULL,
+  `password` text NOT NULL,
+  PRIMARY KEY (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `alumdata`
+--
+
+/*!40000 ALTER TABLE `alumdata` DISABLE KEYS */;
+INSERT INTO `alumdata` (`fullname`,`email`,`mobno`,`course`,`branch`,`startyear`,`endyear`,`prescomp`,`prespos`,`address`,`password`) VALUES 
+ ('mayank','gp@gmail.com','7689762526','B.Tech','CSE','2003','2007','TCS','gandu','ajmer','mayank420'),
+ ('Vishal Jangid','vishaljangid@gmail.com','8764215215','B.Tech','CSE','2015','2019','TCS','Asst. System Engineer','Vikas Path ALwar','mayank420');
+/*!40000 ALTER TABLE `alumdata` ENABLE KEYS */;
+
+
+--
+-- Definition of table `student`
+--
+
+DROP TABLE IF EXISTS `student`;
+CREATE TABLE `student` (
+  `NAME` varchar(50) NOT NULL,
+  `DOB` date NOT NULL,
+  `SEX` varchar(5) NOT NULL,
+  `BRANCH` varchar(45) NOT NULL,
+  `EMAIL` varchar(60) NOT NULL,
+  `PHONE` decimal(10,0) NOT NULL,
+  `HOUSENO` decimal(10,0) NOT NULL,
+  `STREET` text NOT NULL,
+  `CITY` text NOT NULL,
+  `STATE` text NOT NULL,
+  `PIN` decimal(10,0) NOT NULL,
+  `FNAME` varchar(45) NOT NULL,
+  `MNAME` varchar(45) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `student`
+--
+
+/*!40000 ALTER TABLE `student` DISABLE KEYS */;
+INSERT INTO `student` (`NAME`,`DOB`,`SEX`,`BRANCH`,`EMAIL`,`PHONE`,`HOUSENO`,`STREET`,`CITY`,`STATE`,`PIN`,`FNAME`,`MNAME`) VALUES 
+ ('MAYANK GUPTA','1996-06-06','male','Computer science','gmayank3696@gmail.com','8764215215','40','R.C.SISODIA , GALI NO. 3 NAYA GHAR,  GULAB BARI','Ajmer','Rajasthan','305001','ASHOK GUPTA','MADHU GUPTA'),
+ ('Harshit gupta','1999-02-20','male','Computer science','gharshit979@gmail.com','7230853014','50','TOONGA','JAIPUR','Rajasthan','303302','RAMESH CHAND GUPTA','MAMTA GUPTA');
+/*!40000 ALTER TABLE `student` ENABLE KEYS */;
+
+
+
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

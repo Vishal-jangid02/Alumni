@@ -13,7 +13,6 @@
         android:background="@color/colorPrimary"
         app:titleTextColor="@color/colorwhite"></android.support.v7.widget.Toolbar>
 
-
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycle_jobs"
         android:layout_width="match_parent"

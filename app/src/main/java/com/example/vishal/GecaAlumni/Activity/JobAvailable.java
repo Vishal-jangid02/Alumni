@@ -110,7 +110,7 @@ public class JobAvailable extends AppCompatActivity {
             public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
                 super.onFailure(statusCode, headers, responseString, throwable);
 
-                Toast.makeText(JobAvailable.this,"Failed",Toast.LENGTH_LONG);
+                Toast.makeText(JobAvailable.this,"Failed",Toast.LENGTH_LONG).show();
             }
         });
 
